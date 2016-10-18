@@ -7,7 +7,9 @@ import { AppComponent }   from './app.component';
 
 @NgModule({
   imports:      [ BrowserModule ], // Inject built-in modules
-  declarations: [ ], // Inject your own modules
+  declarations: [ AppComponent ], // Inject your own modules (deps)
   bootstrap:    [ AppComponent ] // Module you need to bootstrap
 })
+
 export class AppModule { }
+

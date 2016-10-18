@@ -18,3 +18,4 @@ export const mockBooks: Book [] = [
   { title: 'Setting up nginx', cover: `${images}/nginx.jpg`, category: 'Computer Science'},
   { title: 'Building Microservices', cover: `${images}/microservices.jpg`, category: 'Architecture'},
 ];
+
